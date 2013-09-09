@@ -1,4 +1,4 @@
-b8372f3aaec9ecf620e377e405380464 *DESCRIPTION
+929368857f896534dab09be9be9865ab *DESCRIPTION
 a213c16377d431f52f86ec01914aa21b *LICENSE
 37cd54d977e1cf39ee2f0aa75e7931db *NAMESPACE
 443ebc92d1c184c3fa0e2ff431d06e52 *R/AllClasses.R
@@ -26,7 +26,6 @@ f04cb4fffcd3424b6d9faa2270f03363 *data/say.wavelet.rda
 52ddc4af24d795fe93cc0399e87c349d *data/tbauc.6m.rda
 e19221b935bbc49b9436784a54e1dc0c *data/tbond.rda
 2066e3c4f48f8b4e790639fcc29f5280 *data/tcm.curve.rda
-e1cfeb9f9960e0bd34440363f4b94458 *inst/build/makeData.R
 603033b8e99373e0ad4b69fc921af3b9 *inst/examples/hiplotTests.R
 9760c9fb5ebe4b20214954e0880d3da7 *inst/examples/loplotTests.R
 f32bb72433926a7c55aba3116cc3a8ed *inst/external/djia.rda

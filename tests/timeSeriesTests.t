@@ -266,3 +266,9 @@
    # test shift    
    all( positions(shift(a)) == as( 2:11, "timeDate") )
 }
+
+all.equal(
+    structure(list(TS = 1:9), row.names = c("03/01/1996", "03/01/1997",
+        "03/01/1998", "03/01/1999", "03/01/2000", "03/01/2001", "03/01/2002",
+        "03/01/2003", "03/01/2004"), class = "data.frame"),
+    data.frame(TS=timeSeries(1:9, from=timeCalendar(d=1, m=3, y=1996), by="years")))

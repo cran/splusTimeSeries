@@ -14,6 +14,24 @@ setAs( "seriesVirtual", "integer",
 setAs( "seriesVirtual", "vector",
       function(from) as(from@data, "vector"))
 
+"as.data.frame.timeSeries" <- 
+function(x, ...) {
+    V1 <- x@data
+    ret <- as.data.frame(V1, ...)
+    row.names(ret) <- as(x@positions, "character")
+    ret
+}
+"as.data.frame.signalSeries" <-
+function(x, ...) {
+    ret <- as.data.frame(x@data, ...)
+    row.names(ret) <- as(x@positions, "character")
+    ret
+}
+setAs("timeSeries", "data.frame",
+      function(from) as.data.frame.timeSeries(from))
+setAs("signalSeries", "data.frame",
+      function(from) as.data.frame.signalSeries(from))
+
 setMethod( "show", "seriesVirtual", function( object )
 {
   # print out the data by making a table
@@ -23,9 +41,14 @@ setMethod( "show", "seriesVirtual", function( object )
     return()
   }
 
-  cols <- unlist( lapply( 1:numCols(object@data),
-			 function(i, x ) subscript2d( x, , i ),
+  if(is.data.frame( object@data)) {
+      cols <- unlist( lapply( 1:numCols(object@data),
+          function(i, x ) format(subscript2d( x, , i )), object@data ))
+  } else {
+      cols <- unlist( lapply( 1:numCols(object@data),
+          function(i, x ) subscript2d( x, , i ),
                          object@data ))
+  }
 
   cols <- c( as( object@positions, "character" ), cols )
 

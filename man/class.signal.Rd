@@ -2,6 +2,8 @@
 \alias{signalSeries-class}
 \alias{start,signalSeries-method}
 \alias{end,signalSeries-method}
+\alias{coerce,signalSeries,data.frame-method}
+\alias{as.data.frame,signalSeries-method}
 \title{
   signalSeries Class
 }

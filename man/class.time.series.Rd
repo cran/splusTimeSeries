@@ -2,6 +2,8 @@
 \alias{timeSeries-class}
 \alias{deltat,timeSeries-method}
 \alias{start,timeSeries-method}
+\alias{coerce,timeSeries,data.frame-method}
+\alias{as.data.frame,timeSeries-method}
 \title{
   Calendar Time Series Class
 }

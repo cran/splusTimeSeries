@@ -39,7 +39,7 @@ monthly intervals.
 }
 \source{
   From the web site of the Federal Reserve
-  Bank, \url{http://www.bog.frb.fed.us/releases/H15/data.htm}.
+  Bank, \url{http://www.federalreserve.gov/releases/h15/data.htm}.
 }
 \keyword{datasets}
 

@@ -5,7 +5,7 @@
 }
 \description{
 Interest rate data from the web site of the Federal Reserve Bank,
-http://www.bog.frb.fed.us/releases/H15/data.htm,
+http://www.federalreserve.gov/releases/h15/data.htm,
 running from 1972 to 1997.  
 
 You can find more information on that web site. 

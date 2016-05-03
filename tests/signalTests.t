@@ -239,3 +239,7 @@
     all( positions(b) == 1:20 ) &&
     all( positions(shift(a)) == 2:11 ))
 }
+
+all.equal(
+    structure(list(SS = 1:5), row.names = c("1001", "1002", "1003", "1004", "1005"), class = "data.frame"),
+    data.frame(SS=signalSeries(1:5, 1001:1005, units="smoots", units.position="furlongs")))

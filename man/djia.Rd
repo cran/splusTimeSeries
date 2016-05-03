@@ -25,8 +25,9 @@ volume from January 1987 through February 1990.
   close prices stored as a \code{data.frame}.
 }
 \source{
-From Ohio State University web site
-\url{http://www.cob.ohio-state.edu/~fin/osudown.htm}.
-  }
+From Ohio State University web site,
+http://www.cob.ohio-state.edu/~fin/osudown.htm,
+downloaded in early 1990.
+}
 \keyword{datasets}
 

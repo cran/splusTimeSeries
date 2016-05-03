@@ -59,6 +59,7 @@ in less than 10 years, also calculated by the Treasury Department.
 }
 \source{
   From the web site of the
-  Federal Reserve Bank, \url{http://www.bog.frb.fed.us/releases/H15/data.htm}.
+  Federal Reserve Bank,
+  \url{http://www.federalreserve.gov/releases/h15/data.htm}.
 }
 \keyword{datasets}

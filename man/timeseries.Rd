@@ -6,7 +6,7 @@
 Create a \code{timeSeries} Object
 }
 \description{
-Creates an object of time class \code{timeSeries}.
+Creates an object of class \code{timeSeries}.
 }
 \usage{
 timeSeries(data, positions., units., from = timeCalendar(d = 1,

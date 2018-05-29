@@ -104,7 +104,6 @@ exportMethods(## for both own and "other" generics:
     ## re-export S4 methods, for "stats"-S3-generics:
     "[",
     "[<-",
-    "all.equal.list",
     "aggregate",
     "c",
     "coerce",

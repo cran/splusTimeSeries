@@ -1,10 +1,10 @@
-31674792f74a9475c1f7e630e0201bfc *DESCRIPTION
-d0e23c4bec11561f38f1e69122b180c0 *LICENSE
+e2e4f856b51a8397a6550ca86ecd6353 *DESCRIPTION
+a8e0bb04182a97ab5302971982feda05 *LICENSE
 31ff51b9416e6b92348f6a5b5a2b1fe8 *NAMESPACE
 443ebc92d1c184c3fa0e2ff431d06e52 *R/AllClasses.R
 f14504f3c512275cabf28ffe4e9f12b6 *R/aaa.R
 023aa6873c609d2494ab35f6fbeb862b *R/aggregate.R
-6e026afc1b9e2d8080cf9ff7a721d776 *R/align.R
+6cb7746fc3c80064151e4e55882f5052 *R/align.R
 7f646157a4aa2ad8a583d3b1073a57da *R/ordered.R
 20c3f33427164597eaf43d3dba34f8cc *R/rectangular.R
 7dd01ac3f1523c045e9ee1f2710dd166 *R/seriesData.R
@@ -45,7 +45,7 @@ e94100a318edaf0f7ebc87686d0e5c21 *man/align.Rd
 d7a69b1e85cc01b752e8166dbe29a431 *man/djia.Rd
 9824981c644b4d6b696e496991abb1d2 *man/exch.rate.Rd
 8c65f5dfd5e4c678bb4485df2379a2f7 *man/fed.rate.Rd
-74c656224059464d43a13e4e5953a150 *man/hloc.Rd
+49a0f6aab714f33f68de01a4bda154bc *man/hloc.Rd
 c44b3ccf395f06bb45848f9b039e03c5 *man/isrect.Rd
 a4ed67a94d17a5241f6583759d265400 *man/net.packet.Rd
 f7596fd5e88a9177dbdcd18ce3a413a4 *man/positions.Rd
@@ -62,7 +62,7 @@ d5d78ba47b63a70b51c6472ca8ac4764 *man/tbond.Rd
 b39543fb457be3c50b515ce84c533e61 *man/timeseries.Rd
 37a0a20765da8176b20462cf353395ce *man/tsmerge.Rd
 7816ec4c19bb7d10276b2d8563892d19 *man/tsupd.Rd
-8376efb4e49115b019868da45f3afcaf *man/unionps.Rd
+45ac1ba6364896b8d4bbda45c2b5a057 *man/unionps.Rd
 1f30a44cddae84697198bd2ba8ec4c1a *src/Syms.h
 f4f8c1209b2f47d2693b9812cff3c75e *src/init.c
 956396b2386bffa3f54544d00402d2b0 *src/seriesFuns.c

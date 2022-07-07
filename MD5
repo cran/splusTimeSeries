@@ -1,4 +1,4 @@
-e2e4f856b51a8397a6550ca86ecd6353 *DESCRIPTION
+7d65f8fd320dacb6bf34fac32b8df1ed *DESCRIPTION
 a8e0bb04182a97ab5302971982feda05 *LICENSE
 31ff51b9416e6b92348f6a5b5a2b1fe8 *NAMESPACE
 443ebc92d1c184c3fa0e2ff431d06e52 *R/AllClasses.R
@@ -66,7 +66,7 @@ b39543fb457be3c50b515ce84c533e61 *man/timeseries.Rd
 1f30a44cddae84697198bd2ba8ec4c1a *src/Syms.h
 f4f8c1209b2f47d2693b9812cff3c75e *src/init.c
 956396b2386bffa3f54544d00402d2b0 *src/seriesFuns.c
-2aaf62418f643dee48e9b1e5da10499c *src/seriesFuns.h
+3878b4cb00f974c5eb41cc36f27ec127 *src/seriesFuns.h
 0453444959265be8b1d0b3d7aae359a0 *tests/alignTests.t
 4ba0e454095cd8bc8a3a9a7dcc822c47 *tests/hiplotTests.t
 c7ac31335d874ad966da30a993edb767 *tests/loplotTests.t

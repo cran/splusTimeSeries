@@ -1,5 +1,5 @@
 Package: splusTimeSeries
-Version: 1.5.7
+Version: 1.5.8
 Title: Time Series from 'S-PLUS'
 Depends: R (>= 2.10), splusTimeDate (>= 2.5.2)
 Imports: graphics, methods, stats
@@ -20,9 +20,9 @@ URL: https://github.com/spkaluzny/splusTimeSeries
 BugReports: https://github.com/spkaluzny/splusTimeSeries/issues
 LazyData: no
 NeedsCompilation: yes
-Packaged: 2024-09-19 03:57:23 UTC; spk
+Packaged: 2026-04-06 19:00:59 UTC; spk
 Author: Stephen Kaluzny [aut, cre],
   TIBCO Software Inc. [aut, cph]
 Maintainer: Stephen Kaluzny <spkaluzny@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-09-19 16:00:02 UTC
+Date/Publication: 2026-04-07 05:10:02 UTC
